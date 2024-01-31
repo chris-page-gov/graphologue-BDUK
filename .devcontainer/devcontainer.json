@@ -23,7 +23,8 @@
 				"typescript.tsdk": "node_modules/typescript/lib"
 			}
 		}
-	}
+	},
+	"postCreateCommand": "npm i --save-dev @types/node"
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
