@@ -7,6 +7,9 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/typescript-node",
 	"forwardPorts": [3000],
+"containerEnv": {
+	"REACT_APP_OPENAI_API_KEY": "${env:OPENAI_API_KEY}"
+    },
 	"customizations": {
 		"vscode": {
 			"extensions": [
