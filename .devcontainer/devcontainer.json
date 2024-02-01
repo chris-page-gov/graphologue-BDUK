@@ -24,11 +24,7 @@
 			}
 		}
 	},
-	"postCreateCommand": [
-		"npm install -g npm@latest",
-		"npm i --save-dev @types/node",
-		"npm audit fix"
-	  ]
+	"postCreateCommand": "npm install -g npm@latest && npm i --save-dev @types/node && npm audit fix"
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
