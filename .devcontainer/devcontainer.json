@@ -15,7 +15,7 @@
 				"shd101wyy.markdown-preview-enhanced"
 			],
 			"settings": {
-				"terminal.integrated.shell.linux": "/bin/bash",
+				"terminal.integrated.shell.linux": "/bin/zsh",
 				"editor.formatOnSave": true,
 				"editor.codeActionsOnSave": {
 					"source.fixAll.eslint": true
@@ -26,7 +26,13 @@
 			}
 		}
 	},
-	"postCreateCommand": "npm install -g npm@latest && npm i --save-dev @types/node && npm audit fix"
+	//example of how to run commands after container is created
+	//"postCreateCommand": "npm install -g npm@latest && npm install --save react-scripts@latest 
+	// && npm install --save-dev npm-force-resolutions 
+	// &&  
+	// && npm i --save-dev @types/node 
+	// && npm audit fix --force"
+
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
