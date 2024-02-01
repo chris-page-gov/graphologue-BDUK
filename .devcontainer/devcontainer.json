@@ -27,10 +27,8 @@
 		}
 	},
 	//example of how to run commands after container is created
-	//"postCreateCommand": "npm install -g npm@latest && npm install --save react-scripts@latest 
+	"postCreateCommand": "npm install -g npm@latest && npm install --save react-scripts@latest && npm i --save-dev @types/node"
 	// && npm install --save-dev npm-force-resolutions 
-	// &&  
-	// && npm i --save-dev @types/node 
 	// && npm audit fix --force"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
